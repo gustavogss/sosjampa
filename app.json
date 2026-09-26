@@ -1,0 +1,60 @@
+{
+  "expo": {
+    "name": "SOS Jampa",
+    "slug": "sos-jampa",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/logo.png",
+    "splash": {
+      "image": "./assets/images/splash-screen.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#121212"
+    },
+    "scheme": "sosjampa",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/logo.png",
+        "backgroundColor": "#B71C1C"
+      },
+      "edgeToEdgeEnabled": true,
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO",
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO"
+      ],
+      "package": "com.gsolucoesapps.sosjampa"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/logo.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/splash-screen.png",
+          "imageWidth": 320,
+          "resizeMode": "cover",
+          "backgroundColor": "#121212"
+        }
+      ],
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Necessário para escanear QR Codes e códigos de barras de mantimentos."
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}

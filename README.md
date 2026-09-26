@@ -183,6 +183,11 @@ A confiabilidade é o pilar central do projeto. Qualquer coordenador da ação e
 
 ---
 
+### 📲 Funcionamento
+[Gravação de tela de 26-09-2026 02:58:16.webm](https://github.com/user-attachments/assets/366f03a1-4e0a-4dd5-b14c-cf9107d43074)
+
+---
+
 ## 🤝 Como Contribuir
 
 Iniciativas humanitárias prosperam com o esforço comunitário. Sinta-se convidado a contribuir:
